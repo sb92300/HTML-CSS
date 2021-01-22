@@ -1,0 +1,70 @@
+input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+}
+input[type=checkbox] {
+    width: 10px;
+    margin: 0;
+    height: 10px;
+}
+p {
+    display: inline-block;
+    line-height: 0px;
+    margin: 0;
+}
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+}
+.container {
+    width: 60%;
+    height: 650px;
+    border: solid 1px black;
+    margin: auto;
+    max-width: 600px;
+    min-width: 600px;
+}
+.contact_us {
+    width: 80%;
+    height: 560px;
+    margin: auto;
+    margin-top: 45px;
+    max-width: 600px;
+    margin-bottom: 45px;
+}
+.form-whole {
+    padding: 11px;
+}
+.form-whole h3 {
+    margin-bottom: 10px;
+}
+.inputName h3 {
+    display: inline-block;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+.inputName input {
+    width: 210px;
+    margin-left: 5px;
+}
+.form-half {
+    width: 45%;
+    float: left;
+    padding: 11px;
+}
+button {
+    width: 120px;
+    padding: 5px;
+    background-color: orange;
+    border : none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+}
