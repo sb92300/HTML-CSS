@@ -9,12 +9,14 @@
 <body>
     <div class="main-bg">
         <nav>
-            <ul class="navbar">
-                <li><a href="giraffeBlog.html">메인</a></li>
-                <li><a href="./giraffeBlogIntroduce.html">기린이란?</a></li>
-                <li><a href="#">스킬</a></li>
-                <li><a href="https://blog.naver.com/sb9230">블로그</a></li>
-            </ul>
+            <div class="flex-nav-container">
+                <a class="flex-nav-title" href="giraffeBlog.html">기린의 포트폴리오</a>
+                <span style="flex-grow: 10;"></span>
+                <!-- span 태그에 flex-grow 이용해서 title과 메뉴 사이 공백 생성 -->
+                <a class="flex-nav" href="giraffeBlogIntroduce.html">기린 소개</a>
+                <a class="flex-nav" href="giraffeBlogSkill.html">스킬</a>
+                <a class="flex-nav" href="https://blog.naver.com/sb9230">블로그</a>
+            </div>
         </nav>
                 <div class="introduceGiraffe">
                     <h4 class="introTitle">기린은..</h4>
