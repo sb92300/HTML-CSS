@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+.flex-box {
+    width: 25%;
+    height: 200px;
+    background-color: gray;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+     
+}
+@media screen and (max-width : 768px) {
+    .flex-container {
+        height: 200px;
+    }
+    .flex-box {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .flex-container {
+        width: 100%;
+    }
+}
